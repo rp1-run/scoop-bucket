@@ -1,15 +1,18 @@
 {
-    "version": "0.6.5",
+    "version": "0.7.0-beta.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rp1-run/rp1/releases/download/v0.6.5/rp1-windows-amd64.zip",
+            "url": "https://github.com/rp1-run/rp1/releases/download/v0.7.0-beta.2/rp1-windows-amd64.zip",
             "bin": [
                 "rp1.exe"
             ],
-            "hash": "e75673874d3e5b1f55001cc0398692da23df7494635f4823ac40299c04c85f09"
+            "hash": "a67db70c62d58e952f3ce206f341beeae4eaad9400aa7bd1fcff898f49bdcaf3"
         }
     },
     "homepage": "https://rp1.run",
     "license": "MIT",
-    "description": "AI-assisted development workflows CLI"
+    "description": "AI-assisted development workflows CLI",
+    "post_install": [
+        "rp1 install"
+    ]
 }
