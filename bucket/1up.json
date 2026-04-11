@@ -1,0 +1,17 @@
+{
+  "version": "0.1.5",
+  "description": "Unified search substrate for source repositories",
+  "homepage": "https://github.com/rp1-run/1up",
+  "license": "Apache-2.0",
+  "url": "https://github.com/rp1-run/1up/releases/download/v0.1.5/1up-v0.1.5-x86_64-pc-windows-msvc.zip",
+  "hash": "39788b71419556fbeba1773c8f2cffdca4c638b472a93374e5ed92397a963cfe",
+  "extract_dir": "1up-v0.1.5-x86_64-pc-windows-msvc",
+  "bin": "1up.exe",
+  "checkver": {
+    "github": "https://github.com/rp1-run/1up"
+  },
+  "autoupdate": {
+    "url": "https://github.com/rp1-run/1up/releases/download/v$version/1up-v$version-x86_64-pc-windows-msvc.zip",
+    "extract_dir": "1up-v$version-x86_64-pc-windows-msvc"
+  }
+}
