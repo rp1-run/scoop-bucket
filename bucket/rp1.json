@@ -1,12 +1,12 @@
 {
-    "version": "0.7.3",
+    "version": "0.7.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rp1-run/rp1/releases/download/v0.7.3/rp1-windows-amd64.zip",
+            "url": "https://github.com/rp1-run/rp1/releases/download/v0.7.4/rp1-windows-amd64.zip",
             "bin": [
                 "rp1.exe"
             ],
-            "hash": "238e59dcf9f52345856b9c9250f0ca70b14f5b7f5489c99a638214beb67c3e4a"
+            "hash": "d553f617af4cd9aa2ccbd10bce9672269a07bd1fa9a7f30cdd8c7db317eecd7e"
         }
     },
     "homepage": "https://rp1.run",
